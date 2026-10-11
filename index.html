@@ -3,11 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta property="og:title" content="Feed the Beast — Laurissa Stokes" />
-<meta property="og:description" content="A free 90-minute session in exchange for letting me practice on you." />
-<meta property="og:image" content="https://laurissastokes.com/og-image.jpeg" />
-<meta property="og:url" content="https://laurissastokes.com" />
-<meta property="og:type" content="website" />
   <title>Feed the Beast — Laurissa Stokes</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <style>
@@ -490,31 +485,10 @@
       50%       { opacity: 1; }
     }
 
-    /* ── SETTING PHOTOS ── */
-    .photo-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1rem;
-      margin-top: 1.5rem;
-    }
-
-    .setting-photo {
-      width: 100%;
-      height: 250px;
-      object-fit: cover;
-      border: 1px solid rgba(201,151,42,0.2);
-    }
-
-    @media (max-width: 600px) {
-      .photo-grid { grid-template-columns: 1fr; }
-      .setting-photo { height: 220px; }
-    }
-
     /* ── RESPONSIVE ── */
     @media (max-width: 600px) {
       .hero-title { font-size: 4.5rem; }
       .faq-question { font-size: 1.1rem; }
-      .hero-eyebrow { font-size: 0.55rem; }
     }
   </style>
 </head>
@@ -528,7 +502,7 @@
     <h1 class="hero-title">Feed<span>the Beast.</span></h1>
     <div class="hero-divider"></div>
     <p class="hero-tagline">
-      A free 90-minute session in exchange for letting me practice on you.<br>
+      A free 90-minute massage in exchange for letting me practice on you.<br>
       Fair warning: the beast is me — <em>an ADD brain with a learning compulsion</em> that I can't unleash on my paying clients.
     </p>
     <div class="alert-banner" onclick="document.querySelector('.please-read').scrollIntoView({ behavior: 'smooth' })">
@@ -546,7 +520,7 @@
     <p>First of all, thank you — you're a big part of how I got here. A few things are different now that I've graduated:</p>
     <ul class="change-list">
       <li>Sessions are now <strong>90 minutes</strong> instead of 60.</li>
-      <li>The session is 90 minutes total — the first 40 minutes you'll be my guinea pig for whatever advanced modality I'm currently exploring, followed by a massage for the rest of the time.</li>
+      <li>The first 40 minutes will be devoted to whatever advanced modality I'm currently exploring. You'll be my guinea pig. The remaining 50 minutes are your massage.</li>
       <li>I'm no longer asking for feedback as your end of the trade. Instead, I'm asking for your openness to my curiosity.</li>
     </ul>
     <p>Everything else stays the same. Oh — and feedback is still very much welcome, just no longer required.</p>
@@ -557,7 +531,7 @@
 <section class="please-read">
   <p class="section-label">First Time Here?</p>
   <h2>Welcome.</h2>
-  <p>This page travels by word of mouth, which means someone who knows me thought you'd be a good fit — and that's good enough for me. I'm a newly graduated massage therapist, and I want bodies to practice new stuff on as I learn more and more. The session is 90 minutes total — 40 minutes of me practicing new stuff without the pressure of satisfying a paying client, followed by a massage for the rest of the time. Scroll down to see exactly what that means.</p>
+  <p>This page travels by word of mouth, which means someone who knows me thought you'd be a good fit — and that's good enough for me. I'm a newly graduated massage therapist, and I want bodies to practice new stuff on as I learn more and more. You get a free 50-minute massage. I get 40 minutes of practicing new stuff without the pressure of satisfying a paying client. Scroll down to see exactly what that means.</p>
   <div class="gold-rule"></div>
 </section>
 
@@ -579,7 +553,7 @@
         <span class="faq-toggle">−</span>
       </div>
       <div class="faq-answer">
-        <p>Yes. I get a guinea pig for 40 minutes. You get a massage for the rest of the session. 90 minutes total. Fair trade.</p>
+        <p>Yes. You get a free 50-minute massage. I get a guinea pig for 40 minutes. Fair trade. </p>
         <p>If the idea of getting a free massage makes you feel guilty, consider this: you're not getting something for nothing — you're giving me something I can't get any other way. I have an ADD brain with a learning compulsion that I can't unleash on my paying clients. This isn't charity for either of us. It's feeding the beast. We both win.</p>
       </div>
     </div>
@@ -609,7 +583,7 @@
         <span class="faq-toggle">+</span>
       </div>
       <div class="faq-answer">
-        <p>A blend of Swedish (relaxing) and deep tissue (focused) techniques. Pressure is always adjustable.</p>
+        <p>Full-body massage using a blend of Swedish (relaxing) and deep tissue (focused) techniques. Pressure is always adjustable.</p>
       </div>
     </div>
 
@@ -631,10 +605,6 @@
       </div>
       <div class="faq-answer">
         <p>I have a spare bedroom dedicated entirely to this — massage table, proper linens and bolsters, and all the trappings of a professional setup. It's clean, quiet, and private. Not a spa, but not your average spare bedroom either.</p>
-        <div class="photo-grid">
-          <img src="Massagephoto1.jpeg" alt="Massage room with table" class="setting-photo" />
-          <img src="Massagephoto2.jpg" alt="Studio space with massage room visible" class="setting-photo" />
-        </div>
       </div>
     </div>
 
@@ -683,6 +653,18 @@
 
     <div class="faq-item">
       <div class="faq-question" onclick="toggleFaq(this)">
+        What if I've seen you as a massage client somewhere else?
+        <span class="faq-toggle">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>If I've worked with you as a client at a clinic, spa, or other massage practice, I'd prefer to keep our work together in that context.</p>
+        <p>The distinction matters mostly because of what it does to <em>my</em> mindset. With a client, my responsibility is to make the session as good and useful for them as I can. With a Feed the Beast volunteer, I need permission to be learning — to experiment, practice, get something wrong, abandon an idea, mutter to myself, spend twenty minutes figuring something out, or whisper "fascinating" in a manner that inspires absolutely no confidence.</p>
+        <p>When someone is also a client of a practice where I work, I suspect I'll feel too much responsibility for representing that practice well to give myself the freedom to use the session that way.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)">
         Can I come back if I've already done this before?
         <span class="faq-toggle">+</span>
       </div>
@@ -697,7 +679,7 @@
         <span class="faq-toggle">+</span>
       </div>
       <div class="faq-answer">
-        <p>Sure! This is a public page, so it's out there — but I work best with people who come referred through someone I know or through someone who has already been on my table. Feel free to share with anyone you think would be a good fit. When they book, I'll ask who referred them.</p>
+        <p>Sure!</p>
       </div>
     </div>
 
